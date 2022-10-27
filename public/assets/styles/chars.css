@@ -1,0 +1,60 @@
+
+
+#chars{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#chars > div{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 20%;
+}
+
+
+#chars > div > div{
+  padding: 8px;
+  /* display: flex; */
+}
+
+#chars > div > div svg{
+  display: block;
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+
+#chars > div > div svg path{
+  transform-origin: 0 0;
+  transform: translate(20px,100%) rotate(40deg);
+
+}
+
+
+
+@media only screen and (min-width: 1366px){
+  #chars .chars-item1,
+  #chars .chars-item5 {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+}

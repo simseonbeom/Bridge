@@ -1,0 +1,73 @@
+
+
+#loading{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100000;
+  background:#fafafa;
+  /* display: none; */
+}
+
+
+
+#loading > div{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-weight: 500;
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+
+
+#loading span{
+  display: inline-block;
+}
+
+#loading .top{
+  margin-top: -1vw;
+}
+
+
+#loading .progress{
+  width: 100%;
+  height: 2px;
+  background: rgb(190, 190, 190);
+  margin-top:1rem;
+}
+
+
+
+#loading .bottom > span{
+  /* opacity: 0; */
+  overflow: hidden;
+
+}
+
+#loading .bottom > span > span{
+  transform: translateY(100%)
+}
+
+
+#loading .progress .bar{
+  width: 10%;
+  height: 100%;
+  background: black;
+}
+
+#loading .arrow{
+  animation: arrow 1s infinite alternate;
+  opacity: 0;
+}
+
+
+@keyframes arrow {
+  to{
+    transform: translateY(10%)
+  }
+}

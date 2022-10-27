@@ -1,0 +1,49 @@
+#intro {
+  color: #272727;
+}
+
+#bridge-svg {
+  width: 34vw;
+  fill: currentColor;
+}
+
+@media only screen and (max-width: 1024px) {
+  #bridge-svg {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 680px) and (orientation: landscape) {
+  #bridge-svg {
+    width: 41vw;
+    height: 6.7rem;
+  }
+}
+
+.site-info {
+  text-align: center;
+  margin-top: 1.58vw;
+}
+
+.site-info .site-tagline {
+  color: currentColor;
+  font-weight: 500;
+  font-size: 1.17rem;
+  line-height: 1.72rem;
+}
+
+@media only screen and (max-width: 1024px) .site-info {
+  margin-top: 2.2vmax;
+}
+
+@media only screen and (max-width: 680px) .site-info {
+  margin-top: 1.6vmax;
+}
+
+
+
+
+
+
+
+

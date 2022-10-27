@@ -1,0 +1,59 @@
+#awards {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #d0ccc1;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* transform: translateX(-100%) */
+}
+
+.frame {
+  position: relative;
+  /* position: absolute; */
+  /* left: 50%; */
+  /* top: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.frame .video {
+  position: absolute;
+  top: 7.3%;
+  left: 1.8%;
+  height: 90%;
+  width: 96.15%;
+}
+
+.awards-info {
+  position: relative;
+  margin-top: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.awards-info-title {
+  color: #fff;
+}
+
+.awards-description {
+  margin-top: 1rem;
+  /* isolation: isolate; */
+  color: #fff;
+}
+
+#awards .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #cfccde;
+  width: 0;
+  /* transition: all .5s; */
+}
+

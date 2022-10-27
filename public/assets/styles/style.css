@@ -1,0 +1,87 @@
+@import url('./reset.css');
+@import url('./loading.css');
+@import url('./header.css');
+@import url('./intro.css');
+@import url('./wall.css');
+@import url('./demo.css');
+@import url('./shop.css');
+@import url('./portfolio.css');
+@import url('./letters.css');
+@import url('./awards.css');
+@import url('./element.css');
+@import url('./modules.css');
+@import url('./chars.css');
+@import url('./qode.css');
+
+html {
+  font-size: 20px;
+}
+.ScrollSmoother-wrapper {
+  -webkit-transform: translateZ(0);
+}
+/* @media only screen and (max-width: 680px) {
+  font-size: 13px;
+}
+@media only screen and (max-width: 1024px) {
+  font-size: 17px;
+}
+@media only screen and (max-width: 1280px) {
+  font-size: 17px;
+}
+@media only screen and (max-width: 1440px) {
+  font-size: 18px;
+}
+@media only screen and (max-width: 1680px) {
+  font-size:19px;
+}
+ */
+body {
+  font-size: ;
+  /* background: red; */
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  background-color: #fafafa;
+}
+
+#container .section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+p {
+  font-size: 1rem;
+  color: #757575;
+}
+
+img,
+video {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+svg {
+  overflow: visible;
+}
+
+h2 {
+  font-size: 6.3vmax;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1366px) {
+  h3 {
+    font-size: 2rem;
+  }
+}

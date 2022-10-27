@@ -1,0 +1,19 @@
+{
+  "name": "interactive-senior",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "npx serve -s build"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "gsap": "npm:@gsap/business@^3.11.2",
+    "matter-js": "^0.18.0",
+    "normalize.css": "^8.0.1"
+  }
+}

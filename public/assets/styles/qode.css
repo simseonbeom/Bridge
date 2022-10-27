@@ -1,0 +1,80 @@
+#qode {
+}
+
+.qode_tagline {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 25vw;
+}
+
+.qode_round_text {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 80%) scale(1.5);
+  bottom: 0;
+}
+
+.qode_logo {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transform: translate(-50%,0); */
+}
+
+.qode_logo svg {
+  width: 100%;
+  height: 100%;
+  transform:scale(0.25);
+  position: relative;
+}
+
+.qode-text-holder {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .qode-screen--end h2 {
+    font-size: 6.3vmax;
+  }
+}
+.qode-screen--end h2 {
+  font-size: 4.5vmax;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1680px) {
+  .qode-end-description {
+    margin-top: 0.7rem;
+  }
+  .qode_logo svg {
+    top: -5vw;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  
+  .qode_logo svg {
+    top: -19vw;
+  }
+}
+.qode-description,
+.qode-end-description {
+  margin-top: 1rem;
+}
+
+#line{
+  stroke-dasharray: 11342;
+  stroke-dashoffset: 11342;
+}

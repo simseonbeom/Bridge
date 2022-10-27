@@ -1,0 +1,82 @@
+#letters {
+  /* background: orange; */
+  /* height: 300vh !important; */
+}
+
+#canvas {
+  /* width: 100vw; */
+  /* height: 100vh; */
+}
+
+.reduce-text {
+  visibility: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  white-space: nowrap;
+}
+
+.reduce-text h3 {
+  font-size: 6.3vmax;
+}
+
+.text-to-canvas {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  pointer-events: none;
+}
+
+.text-to-canvas div {
+  position: absolute !important;
+  left: 0;
+  top: 0;
+  font-size: 6.3vmax;
+  line-height: 0.8;
+}
+
+.letters-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.letters-tagline {
+  line-height: 1.12;
+  text-align: center;
+  max-width: 48vw;
+  margin-top: -2rem;
+}
+
+@media only screen and (max-width: 1440px) {
+  .letters-tagline {
+    max-width: 58vw;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .letters-tagline {
+    max-width: 49vw;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .letters-tagline {
+    max-width: 62vw;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .letters-tagline {
+    max-width: 80vw;
+  }
+}
+
+.letters-description {
+  margin-top: 1rem;
+}

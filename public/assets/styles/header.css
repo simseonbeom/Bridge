@@ -1,0 +1,10 @@
+#header{
+  position: fixed;
+  left: 0;
+  top: -50px;
+  width: 100vw;
+  height: 50px;
+  background:gray;
+  z-index:100;
+  /* transform: translateY(-100%) */
+}
