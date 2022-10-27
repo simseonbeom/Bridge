@@ -1,9 +1,7 @@
 module.exports = {
   root: './public',
-  base:'/Bridge/build/',
+  base: process.env.NODE_ENV.includes('production') ? '/Bridge/build/' : '/',
   build: {
     outDir: '../build',
   },
-  // base:'/Bridge/'
-  // publicDir: 'assets',
 };
