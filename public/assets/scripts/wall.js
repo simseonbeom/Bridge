@@ -187,10 +187,10 @@ export function wall() {
           pinSpacing: true,
           scrub: true,
           onLeave: () => {
-            showHeader();
+            // showHeader();
           },
           onLeaveBack: () => {
-            hideHeader();
+            // hideHeader();
           },
         });
       }
@@ -270,10 +270,10 @@ export function wall() {
           // pinSpacing: true,
           scrub: true,
           onLeave: () => {
-            showHeader();
+            // showHeader();
           },
           onLeaveBack: () => {
-            hideHeader();
+            // hideHeader();
           },
         });
       }
