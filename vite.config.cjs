@@ -3,6 +3,6 @@ module.exports = {
   build: {
     outDir: '../build',
   },
-  base:'https://simseonbeom.github.io/Bridge/'
+  base:'https://simseonbeom.github.io/Bridge/build'
   // publicDir: 'assets',
 };
