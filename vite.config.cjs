@@ -1,8 +1,9 @@
 module.exports = {
   root: './public',
+  base:'/Bridge/build/',
   build: {
     outDir: '../build',
   },
-  base:'/Bridge/'
+  // base:'/Bridge/'
   // publicDir: 'assets',
 };
