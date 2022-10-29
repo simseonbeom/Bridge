@@ -80,7 +80,7 @@ export function loading(time = 10) {
   loadingSection.addEventListener('click', (e) => {
     const { deltaY } = e;
 
-    // console.log(deltaY);
+    console.log('clicked');
 
     if (finished) {
       gsap.to(loadingSection, {
