@@ -82,7 +82,7 @@ export function loading(time = 10) {
 
     // console.log(deltaY);
 
-    if (deltaY > 0 && finished) {
+    if (finished) {
       gsap.to(loadingSection, {
         yPercent: -100,
         duration: 1.3,
