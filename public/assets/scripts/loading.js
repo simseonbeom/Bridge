@@ -44,7 +44,39 @@ export function loading(time = 10) {
     })();
   }
 
-  loadingSection.addEventListener('wheel', (e) => {
+ 
+
+
+
+  mm.add(device, (ctx) => {
+    let { isMobile, isTablet, isDesktop, reduceMotion } = ctx.conditions;
+
+    let tl = gsap.timeline();
+
+    if(isDesktop){
+ 
+      loadingSection.addEventListener('wheel', (e) => {
+        const { deltaY } = e;
+    
+        // console.log(deltaY);
+    
+        if (deltaY > 0 && finished) {
+          gsap.to(loadingSection, {
+            yPercent: -100,
+            duration: 1.3,
+            ease: 'power4.inOut',
+            onComplete: () => {
+              smoother.paused(false);
+            },
+          });
+          finished = false;
+        }
+      });
+    }
+
+    if(isMobile || isTablet){
+     
+  loadingSection.addEventListener('click', (e) => {
     const { deltaY } = e;
 
     // console.log(deltaY);
@@ -62,5 +94,9 @@ export function loading(time = 10) {
     }
   });
 
+    }
+  });
+  
+  
   progress();
 }
